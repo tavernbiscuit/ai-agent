@@ -17,9 +17,9 @@ task is done.
 
 ## Usage
 
-\`\`\`sh
+```sh
 uv run main.py "Fix the bug: 3 + 7 * 2 shouldn't be 20."
-\`\`\`
+```
 
 ## How It Works
 
@@ -31,13 +31,13 @@ uv run main.py "Fix the bug: 3 + 7 * 2 shouldn't be 20."
 
 ## Structure
 
-\`\`\`
+```
 functions/       # Agent's callable tools
 calculator/      # Example project the agent operates on
 call_function.py # Dispatches function calls
 prompts.py       # System prompt
 main.py          # Entry point
-\`\`\`
+```
 
 ## Notes
 
